@@ -20,6 +20,8 @@ import com.example.domain.Dept;
 
 import lombok.extern.java.Log;
 
+
+
 @Component				// Spring Annotation 하위 패키지 경로내에서 @Component설정되어있는 Class를 Bean객체로 등록한다.
 @Log					// Lombok Annotation 
 public class DeptDao implements InitializingBean, DisposableBean {

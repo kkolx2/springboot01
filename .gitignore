@@ -23,9 +23,6 @@ dist/
 nbdist/
 .nb-gradle/
 
-### Maven ###
-target/
-.mvn/
 
 ### Scala ###
 .cache-main
