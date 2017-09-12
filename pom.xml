@@ -60,6 +60,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.example.DemoApplication</mainClass>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
